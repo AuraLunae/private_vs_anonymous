@@ -1,9 +1,8 @@
-# ============================================================
 # 匿名 vs プライバシー：自前語彙のみの分析（プロット用CSVつき）
 # 3モデル（ruri-v3 / multilingual-e5-large / bge-m3）× 5文型
 # Google Colab（T4 GPU 推奨）
 # 事前準備: extra_vocab_1000.txt を /content/ にアップロード
-# ============================================================
+
 %pip install -q -U sentence-transformers transformers sentencepiece
 
 import gc, gzip, re, shutil, subprocess
