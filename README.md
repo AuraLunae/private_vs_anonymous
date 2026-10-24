@@ -24,3 +24,7 @@ private_vs_anonymous/
 4. 参照語の平均ベクトルを使って共通の偏りを補正し、概念への近さを計算する
 5. 参照語のスコア分布を基準にz得点を求め、モデル間の傾向や分野別の違いを集計する
 6. CSVファイルと、設定に応じて散布図を出力する
+
+## 参考
+金子研究室
+https://www.kkaneko.jp/ai/intro/fasttext-japanese-wordsim.html
